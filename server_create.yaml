@@ -10,7 +10,7 @@
       security_group: testserver # Change the security group name here
       image: ami-00dae5f4602a42239 # Change the AMI, from which you want to launch the server
       region: us-east-1 # Change the Region
-      keypair: jenkins1 # Change the keypair name
+      keypair: dummykey # Change the keypair name
       count: 1
 
     # Task that will be used to Launch/Create an EC2 Instance
